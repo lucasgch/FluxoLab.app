@@ -57,7 +57,8 @@ export default function (): JSX.Element {
               ref: leftPanelRef,
               collapsible: true,
               defaultSize: "150px",
-              minSize: 70,
+              minSize: 150,
+              maxSize: 150,
               collapsedSize: 0,
               onCollapse: () => setLeftPanelVisible(false),
               onExpand: () => setLeftPanelVisible(true)
